@@ -1,0 +1,99 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 201804_CrowDPLoS_IEEE-conference-A4-LaTeX-format.aux
+The style file: ./myIEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: biblio.bib
+Repeated entry---line 306 of file biblio.bib
+ : @inproceedings{hara_tohme:_2014
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 630 of file biblio.bib
+ : @inproceedings{coughlan_terrain_2007
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 638 of file biblio.bib
+ : @article{tan_research_2007
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 745 of file biblio.bib
+ : @inproceedings{hara_tohme:_2014
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 764 of file biblio.bib
+ : @inproceedings{ivanchenko_crosswatch:_2008
+ :                                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 846 of file biblio.bib
+ : @inproceedings{ivanchenko_computer_2008
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 855 of file biblio.bib
+ : @inproceedings{asad_smartphone_2012
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 884 of file biblio.bib
+ : @inproceedings{von_ahn_labeling_2004
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 902 of file biblio.bib
+ : @inproceedings{hara_design_2016
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1087 of file biblio.bib
+ : @inproceedings{bolten_urban_2015
+ :                                 ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing school in minghini_multi-dimensional_2014
+Warning--missing publisher in beucher_segmentation:_1993
+
+Done.
+You've used 62 entries,
+            3990 wiz_defined-function locations,
+            1213 strings with 22968 characters,
+and the built_in function-call counts, 51478 in all, are:
+= -- 4162
+> -- 1209
+< -- 474
++ -- 650
+- -- 199
+* -- 2570
+:= -- 7508
+add.period$ -- 139
+call.type$ -- 62
+change.case$ -- 66
+chr.to.int$ -- 1092
+cite$ -- 64
+duplicate$ -- 3684
+empty$ -- 4148
+format.name$ -- 249
+if$ -- 11911
+int.to.chr$ -- 0
+int.to.str$ -- 62
+missing$ -- 640
+newline$ -- 289
+num.names$ -- 63
+pop$ -- 1420
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3823
+stack$ -- 0
+substring$ -- 2618
+swap$ -- 3155
+text.length$ -- 110
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 62
+warning$ -- 2
+while$ -- 260
+width$ -- 64
+write$ -- 715
+(There were 10 error messages)
