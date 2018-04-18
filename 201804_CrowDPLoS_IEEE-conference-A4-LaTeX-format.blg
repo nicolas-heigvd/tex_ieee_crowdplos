@@ -55,45 +55,45 @@ Warning--missing school in minghini_multi-dimensional_2014
 Warning--missing publisher in beucher_segmentation:_1993
 
 Done.
-You've used 62 entries,
+You've used 56 entries,
             3990 wiz_defined-function locations,
-            1213 strings with 22968 characters,
-and the built_in function-call counts, 51478 in all, are:
-= -- 4162
-> -- 1209
-< -- 474
-+ -- 650
-- -- 199
-* -- 2570
-:= -- 7508
-add.period$ -- 139
-call.type$ -- 62
-change.case$ -- 66
-chr.to.int$ -- 1092
-cite$ -- 64
-duplicate$ -- 3684
-empty$ -- 4148
-format.name$ -- 249
-if$ -- 11911
+            1178 strings with 21531 characters,
+and the built_in function-call counts, 46853 in all, are:
+= -- 3811
+> -- 1091
+< -- 436
++ -- 590
+- -- 178
+* -- 2349
+:= -- 6833
+add.period$ -- 126
+call.type$ -- 56
+change.case$ -- 60
+chr.to.int$ -- 1002
+cite$ -- 58
+duplicate$ -- 3350
+empty$ -- 3739
+format.name$ -- 224
+if$ -- 10832
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 640
-newline$ -- 289
-num.names$ -- 63
-pop$ -- 1420
+int.to.str$ -- 56
+missing$ -- 578
+newline$ -- 265
+num.names$ -- 57
+pop$ -- 1268
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3823
+skip$ -- 3476
 stack$ -- 0
-substring$ -- 2618
-swap$ -- 3155
-text.length$ -- 110
+substring$ -- 2409
+swap$ -- 2891
+text.length$ -- 102
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 62
+type$ -- 56
 warning$ -- 2
-while$ -- 260
-width$ -- 64
-write$ -- 715
+while$ -- 239
+width$ -- 58
+write$ -- 653
 (There were 10 error messages)

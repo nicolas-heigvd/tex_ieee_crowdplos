@@ -245,40 +245,40 @@ The OpenSideWalks project also takes benefits from Crowdsourcing \cite{noauthor_
 \subsection{Computer Vision based techniques}
 %################################################################################
 Historically, CV tends to extract features from images like edges \cite{canny_computational_1986}.
-Segmentation by watershed algorithms \cite{beucher_road_1990,meyer_morphological_1990, beucher_segmentation:_1993} using graph-based techniques \cite{felzenszwalb_efficient_2004} or oriented gradient \cite{malisiewicz_ensemble_2011} gives the ability to well enough isolate regions on an image.
-Hough transform is also a well know line detector that may be used to extract road boarders \cite{duda_use_1972,illingworth_survey_1988,ballard_generalizing_1981,kiryati_probabilistic_1991,yu1997,aly2008real}. Vanishing point extraction \cite{se_road_2003,wang2004lane,kong2009vanishing} realizes that very well too.
+Segmentation by watershed algorithms \cite{meyer_morphological_1990, beucher_segmentation:_1993} using graph-based techniques \cite{felzenszwalb_efficient_2004} or oriented gradient \cite{malisiewicz_ensemble_2011} gives the ability to well enough isolate regions on an image.
+Hough transform is also a well know line detector that may be used to extract road boarders \cite{duda_use_1972,illingworth_survey_1988,ballard_generalizing_1981,kiryati_probabilistic_1991} as well as vanishing point extraction \cite{se_road_2003,wang2004lane,kong2009vanishing}.
 
-Views from the sky are also known to provide good enough classification results, especially for crosswalks detection \cite{berriel_deep_2017}.
+Sky views are also known to provide good enough classification results, especially for crosswalks detection \cite{berriel_deep_2017}.
 
 \cite{lu_real-time_2015} shows a simple approach to calculate the slope of a street by using lines which are known to be horizontal, like building windows edges.
 %\cite{ivanchenko_crosswatch:_2008}
 %\cite{asad_smartphone_2012}
 
-It has already been shown \cite{hara_tohme:_2014, hara_design_2016} how CV was used to determine accessibility from physical features of the real world based on GSV. This approach is making use of ML techniques, especially Convolutional Neural Networks (CNN) which are typically designed to extract features from images \cite{lecun1995convolutional}. Field of autonomous driving brings a solid background for street segmentation using ML \cite{alvarez2012road}, even coupled with stereoscopic images which provides the useful depth information \cite{coughlan_terrain_2007,ivanchenko_computer_2008,zbontar2016stereo}.
+It has already been shown \cite{hara_tohme:_2014, hara_design_2016} how CV was used to determine accessibility from physical features of the real world based on GSV. This approach is making use of ML techniques, especially Convolutional Neural Networks (CNN) which are typically designed to extract features from images \cite{lecun1995convolutional}. Field of autonomous driving brings a solid background for street segmentation using ML \cite{alvarez2012road}, even coupled with stereoscopic images which provides the useful depth information \cite{coughlan_terrain_2007,zbontar2016stereo}.
 \cite{smith_classification_2013} used a more global approach coupled with a random forest classifier to identify sidewalks on street view images.
 
 % \cite{association_for_computing_machinery_acm_tohme:_nodate} % yt
 
 
 
-
 %################################################################################
 \subsection{Coupling CS and CV algorithms to the DPLoS model}
 %################################################################################
-Level of Service (LoS) has long been studied for pedestrian (PLoS) \cite{landis_modeling_2001,dixon_bicycle_1996, gallin_quantifying_2001}. The former proposed a model that can help crossroads design and prioritize the needs for local governments. 
+Level of Service (LoS) has long been studied for pedestrian (PLoS) \cite{landis_modeling_2001, gallin_quantifying_2001}. The former proposed a model that can help crossroads design and prioritize the needs for local governments. 
 
 As sidewalks are probably the most important and secure places for pedestrian to walk on in urban areas, several studies have focused their researches on characterizing and assessing sidewalks accessibility.
 
 \cite{tan_research_2007} compared the gap between the subjective security perception of pedestrian with traffic flow characteristics.
 
-But it's rather new that a PLoS has been specifically investigated for disabled people (DPLoS). \cite{asadi-shekari_zohreh_disabled_2013, asadi-shekari_pedestrian_2014} have for example calculated 10 main feature indicators. These indicators are themselves based on several studies and guidelines regarding facilities for disabled like wheelchair users or blind people. 
+But it's rather new that a PLoS has been specifically investigated for disabled people (DPLoS). \cite{asadi-shekari_zohreh_disabled_2013} have for example calculated 10 main feature indicators. These indicators are themselves based on several studies and guidelines regarding facilities for disabled like wheelchair users or blind people. 
 \cite{mostafavi2015mobilisig, gharebaghi2017confidence} focused on mapping the level of accessibility of street networks and \cite{liu_crowdsourcing-based_2017, comai_mapping_2015} on creating an accessibility mapping mobile application (MEP: Map for Easy Paths) using a user-centered design approach. 
 
 \cite{coughlan_terrain_2007} and \cite{ivanchenko_computer_2008} used calculated depth map to detect negative obstacle edges on wheelchair users path by directly embedding a stereo camera onto the wheelchair. 
 
 Other embedded based techniques make use of a smart-phone camera to detect crosswalk \cite{ivanchenko_crosswatch:_2008} or straight paths using CV and stereo vision \cite{asad_smartphone_2012}.
 
-A 2015 interdisciplinary urban data science program of the University of Washington \cite{rokem_building_2015} has seen 2 projects related to impaired people mobility. One of them, called OpenSideWalk \cite{bolten_urban_2015} investigated sidewalk graph analysis for routing to propose the better paths for disabled people. This project is now proposing a schema to better and more finely represents sidewalks as separate footways from the drivable roads in OpenStreetMap (OSM).%\footnote{\url{https://www.opensidewalks.com/}} \cite{noauthor_opensidewalks_nodate}.
+%A 2015 interdisciplinary urban data science program of the University of Washington \cite{rokem_building_2015} has seen 2 projects related to impaired people mobility. One of them, called 
+OpenSideWalk \cite{bolten_urban_2015} investigated sidewalk graph analysis for routing to propose the better paths for disabled people. This project is now proposing a schema to better and more finely represents sidewalks as separate footways from the drivable roads in OpenStreetMap (OSM).%\footnote{\url{https://www.opensidewalks.com/}} \cite{noauthor_opensidewalks_nodate}.
 
 Even the tourism industry may take some advantages of disabled accessibility researches \cite{israeli_preliminary_2002}.
 
@@ -308,10 +308,10 @@ The bottleneck in such approach is data acquisition and labeling. The latter is 
 %################################################################################
 Based on the relevant literature, the research proposal is articulated in several phases.
 Two first preliminary steps will be:
-\begin{enumerate}\setlength\itemsep{0.0em}
+\begin{itemize}\setlength\itemsep{0.0em}
 \item the creation of the DPLoS model and
 \item the establishment of a pedestrian network at a city-scale level % (the city of Sion was chosen).
-\end{enumerate}  
+\end{itemize}  
 
 Meanwhile, CV+ML algorithms dedicated to features detections in images will be settled together with dedicated CS applications to collect data, digitize and label features and evaluate the detection results.
 
@@ -320,7 +320,7 @@ These two steps must be closely related in their development as part of user inp
 %################################################################################
 \subsection{DPLoS model}
 %################################################################################
-The DPLoS established model retains the following features and value ranges:
+The DPLoS established model retains the 5 following features and value ranges: % set ranges here
 \begin{itemize}
 \item slope
 \item sidewalks width and obstacles
@@ -332,17 +332,22 @@ The DPLoS established model retains the following features and value ranges:
 %################################################################################
 \subsection{Pedestrian graph}
 %################################################################################
-Existing vector data may include:
-\begin{itemize}\renewcommand\labelitemi{--}\setlength\itemsep{0.0em}
+Existing vector data to establish the pedestrian graph may include National Map Agency (NMA) Cadastral Survey or vector data if available, OSM streets and footways or third party road networks.
+
+\iffalse
+\begin{itemize}\setlength\itemsep{0.0em}
 \item National Map Agency (NMA) Cadastral Survey,
-\item NMA vector data, if available,
+\item NMA vector data, if available or
 %\item the Topographic Landscape Model (TLM) of the Federal Office of Topology, swisstopo,
-\item OSM streets and footways,
+\item OSM streets and footways
 %\item any third party road network.
 \end{itemize}
+\fi
 
-It is also conceivable to use high resolution satellite or aerial raster data to extract a road network using segmentation-based classification methods but as this may involve more computational steps this solution was not chosen.
-They may however be an invaluable help to apply this method to regions where high quality vector data does not exist. 
+It is also conceivable to use high resolution satellite %or aerial raster 
+data to extract a road network using segmentation-based classification methods
+% but as this may involve more computational steps this solution was not chosen. They may however be an invaluable help to apply this method to 
+in regions where high quality vector data does not exist. 
 
 For this study, OSM street pathways data were extracted using a dedicated Python package \cite{boeing_osmnx:_2017}.
 
@@ -352,10 +357,10 @@ For this study, OSM street pathways data were extracted using a dedicated Python
 %################################################################################
 %The development of an application, %even if located at later stage in the global process, 
 %should be included as soon as possible. 
-It was first decided not to use one, but rather 3 different applications depending on the goal to achieve. These goals are as follows:
+It was first decided not to use one, but rather 4 different stages depending on the goal to achieve. These goals are as follows:
 \begin{enumerate}\setlength\itemsep{0.0em}
-\item Footways network update
-\item Data acquisition: raw images + geolocation and network segmentation
+\item Footways network making of and update
+\item Data acquisition: raw images + geolocation % and network segmentation
 \item Images features digitizing and labeling %(on raw images)
 \item End-user route choice and update abilities
 \end{enumerate}
@@ -363,28 +368,30 @@ It was first decided not to use one, but rather 3 different applications dependi
 %#####################################
 \subsubsection*{Footways network update}
 %#####################################
-The initial pedestrian network may not be totally fulfilled \ref{pedestriangraph}. It will be proposed as a Tool-as-a-Game (TaaG) application to complete or make it fit the actual reality more precisely based on a recent orthophoto background. %This part may be desktop-oriented for a more comfortable data entry.
+The initial pedestrian network may not be totally fulfilled \ref{pedestriangraph}. It will be proposed as a Tool-as-a-Game (TaaG) to give crowd-workers a way to complete or make it fit the actual reality more precisely based on a recent orthophoto background. %This part may be desktop-oriented for a more comfortable data entry.
 
 
 %#####################################
 \subsubsection*{Data acquisition and geolocation + network segmentation}
 %#####################################
-The second application, which may be mobile-oriented would basically serve as a feeding source for raw images. 
+The second stage, % which may be mobile-oriented 
+would basically serve as a feeding source for raw images. 
 
 Everyone can take a picture with a mobile device and upload it to a database. Along with existing street pictures sources like GSV or mapillary \cite{sweden_street-level_nodate,neuhold2017mapillary} %\footnote{\url{https://www.mapillary.com/}} \cite{sweden_street-level_nodate},
 they will serve as raw data input for the digitizing step.
-If a mobile GNSS receiver and a compass are enabled, geolocation values are stored along the picture. Otherwise, a geolocation tool will propose to the user to geolocate and orient (azimuth) its photograph before uploading it. %A minimal precision will be asked for.\\
+If a mobile GNSS receiver and a compass are enabled, geolocation values are stored along the picture. Otherwise, a geolocation tool will proposed to the user to geolocate and orient (azimuth) its photograph before uploading it. %A minimal precision will be asked for.\\
 
 
 
 %#####################################
 \subsubsection*{Feature digitizing and characterizing}
 %#####################################
-This application could take benefits of larger screens, it will therefore be desktop-oriented. 
+This third stage % could take benefits of larger screens, it will therefore be desktop-oriented. 
+main goal is to digitize one or more of the 5 identified DPLoS features on raw images and marking them with attributes scores based on the DPLoS model. 
 
-Its main goal is to digitize one or more of the 5 identified DPLoS features on raw images and marking them with attributes scores based on the DPLoS model. 
-
-E.g., if someone sees a curb ramp on a picture, he will be able to digitize it and marking it as a curb ramp \ref{curbramppicture}. An other example would let the user annotate a sidewalk surface width as "not crossable for two wheelchairs" or "no possible way for a single wheelchair" based on the perceived width on the given picture. If depth information is available for an image, a measuring tool may also be provided.
+E.g., if someone sees a curb ramp on a picture, he will be able to digitize it and marking it as a curb ramp \ref{curbramppicture}. An other example would let the user annotate a sidewalk surface width as %"not crossable for two wheelchairs" or 
+"no possible way for a single wheelchair" based on the perceived width on the given picture. If depth information is available %for an image, 
+a measuring tool may also be provided.
 
 \begin{figure}[ht]
 \begin{center}
