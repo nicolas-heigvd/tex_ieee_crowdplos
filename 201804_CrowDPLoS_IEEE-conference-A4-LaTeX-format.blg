@@ -8,92 +8,79 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: biblio.bib
-Repeated entry---line 306 of file biblio.bib
+Repeated entry---line 336 of file biblio.bib
  : @inproceedings{hara_tohme:_2014
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 630 of file biblio.bib
+Repeated entry---line 674 of file biblio.bib
  : @inproceedings{coughlan_terrain_2007
  :                                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 638 of file biblio.bib
+Repeated entry---line 682 of file biblio.bib
  : @article{tan_research_2007
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 745 of file biblio.bib
+Repeated entry---line 789 of file biblio.bib
  : @inproceedings{hara_tohme:_2014
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 764 of file biblio.bib
+Repeated entry---line 808 of file biblio.bib
  : @inproceedings{ivanchenko_crosswatch:_2008
  :                                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 846 of file biblio.bib
+Repeated entry---line 890 of file biblio.bib
  : @inproceedings{ivanchenko_computer_2008
  :                                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 855 of file biblio.bib
+Repeated entry---line 899 of file biblio.bib
  : @inproceedings{asad_smartphone_2012
  :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 884 of file biblio.bib
- : @inproceedings{von_ahn_labeling_2004
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 902 of file biblio.bib
- : @inproceedings{hara_design_2016
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1087 of file biblio.bib
- : @inproceedings{bolten_urban_2015
- :                                 ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing school in minghini_multi-dimensional_2014
-Warning--missing publisher in beucher_segmentation:_1993
 
 Done.
-You've used 56 entries,
+You've used 34 entries,
             3990 wiz_defined-function locations,
-            1178 strings with 21531 characters,
-and the built_in function-call counts, 46853 in all, are:
-= -- 3811
-> -- 1091
-< -- 436
-+ -- 590
-- -- 178
-* -- 2349
-:= -- 6833
-add.period$ -- 126
-call.type$ -- 56
-change.case$ -- 60
-chr.to.int$ -- 1002
-cite$ -- 58
-duplicate$ -- 3350
-empty$ -- 3739
-format.name$ -- 224
-if$ -- 10832
+            1025 strings with 15751 characters,
+and the built_in function-call counts, 27105 in all, are:
+= -- 2177
+> -- 639
+< -- 240
++ -- 348
+- -- 108
+* -- 1334
+:= -- 3973
+add.period$ -- 76
+call.type$ -- 34
+change.case$ -- 34
+chr.to.int$ -- 546
+cite$ -- 35
+duplicate$ -- 1953
+empty$ -- 2205
+format.name$ -- 134
+if$ -- 6264
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 578
-newline$ -- 265
-num.names$ -- 57
-pop$ -- 1268
+int.to.str$ -- 34
+missing$ -- 345
+newline$ -- 161
+num.names$ -- 33
+pop$ -- 778
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3476
+skip$ -- 2030
 stack$ -- 0
-substring$ -- 2409
-swap$ -- 2891
-text.length$ -- 102
+substring$ -- 1317
+swap$ -- 1648
+text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 56
-warning$ -- 2
-while$ -- 239
-width$ -- 58
-write$ -- 653
-(There were 10 error messages)
+type$ -- 34
+warning$ -- 1
+while$ -- 135
+width$ -- 36
+write$ -- 387
+(There were 7 error messages)
