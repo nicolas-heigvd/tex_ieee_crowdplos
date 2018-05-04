@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.5)  4 MAY 2018 13:56
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.5)  4 MAY 2018 13:44
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,12 +1064,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--402
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--402
+<<<<<<< HEAD
 \T1/ptm/m/n/10 may also be pro-vided to di-rectly mea-
+=======
+\T1/ptm/m/n/10 may also be pro-vided to di-rectly
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--402
+<<<<<<< HEAD
 \T1/ptm/m/n/10 sure the side-walk width onto the im-age.
+=======
+\T1/ptm/m/n/10 mea-sure dis-tances onto the im-age.
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
  []
 
 
@@ -1082,16 +1094,28 @@ Package pdftex.def Info: ./images/curb_ramp_crosswalk01.jpg used on input line
 (pdftex.def)             Requested size: 235.84843pt x 66.68326pt.
  [3 <./images/OSM_walk_graph_022.jpg> <./images/architecture.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 452--453
+<<<<<<< HEAD
  []\T1/ptm/m/it/10 4) End-user route choice as-sess-
+=======
+ []\T1/ptm/m/it/10 4) End-user route choice [][][][][][]
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 452--453
+<<<<<<< HEAD
 \T1/ptm/m/it/10 ment and up-date: [] \T1/ptm/m/n/10 The fi-nal ap-pli-ca-tion
  []
 
 
 Overfull \hbox (163.51834pt too wide) in paragraph at lines 452--453
+=======
+\T1/ptm/m/it/10 and up-date: [] \T1/ptm/m/n/10 The fi-nal ap-pli-ca-tion
+ []
+
+
+Overfull \hbox (137.24858pt too wide) in paragraph at lines 452--453
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 [][][][][][]
  []
 
@@ -1102,8 +1126,13 @@ File: ./images/example01.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./images/example01.jpg used on input line 462.
 (pdftex.def)             Requested size: 235.84843pt x 133.24008pt.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 4954) in paragraph at lines 500--501
 \T1/ptm/m/n/10 based dis-abled pedes-trian level of ser-vice rout-ing
+=======
+Underfull \hbox (badness 2717) in paragraph at lines 500--501
+\T1/ptm/m/n/10 based dis-abled pedes-trian level of ser-vice [][][][][][]
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
  []
 
 
@@ -1117,6 +1146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 500--501
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 5189) in paragraph at lines 500--501
 \T1/ptm/m/n/10 More im-por-tantly, we present the com-bi-na-tion of
  []
@@ -1128,6 +1158,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
 
 Overfull \hbox (495.90627pt too wide) in paragraph at lines 500--501
+=======
+Underfull \hbox (badness 1527) in paragraph at lines 500--501
+\T1/ptm/m/n/10 de-tec-tion [][][][][][] has been
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 500--501
+\T1/ptm/m/n/10 im-proved by ap-ply the tech-nol-ogy of crowd-sourc-
+ []
+
+
+Overfull \hbox (18.16943pt too wide) in paragraph at lines 500--501
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 \T1/ptm/m/n/10 ing[][][][][][].
  []
 
@@ -1137,7 +1180,11 @@ Underfull \hbox (badness 2799) in paragraph at lines 500--501
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (564.39674pt too wide) in paragraph at lines 500--501
+=======
+Overfull \hbox (30.45026pt too wide) in paragraph at lines 500--501
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 [][][][][][]\T1/ptm/m/n/10 in
  []
 
@@ -1200,11 +1247,19 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
 Here is how much of TeX's memory you used:
  8694 strings out of 494883
  125548 string characters out of 6178694
+<<<<<<< HEAD
  230711 words of memory out of 5000000
  11768 multiletter control sequences out of 15000+600000
  115248 words of font info for 131 fonts, out of 8000000 for 9000
  37 hyphenation exceptions out of 8191
  42i,9n,26p,1437b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ 230713 words of memory out of 5000000
+ 11768 multiletter control sequences out of 15000+600000
+ 115248 words of font info for 131 fonts, out of 8000000 for 9000
+ 37 hyphenation exceptions out of 8191
+ 42i,9n,26p,1277b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1219,7 +1274,11 @@ live/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
 Output written on 201804_CrowDPLoS_IEEE-conference-A4-LaTeX-format.pdf (5 pages
+<<<<<<< HEAD
 , 1187395 bytes).
+=======
+, 1187426 bytes).
+>>>>>>> f369d40f8b97ef916d580c76a277c955b5398f74
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
