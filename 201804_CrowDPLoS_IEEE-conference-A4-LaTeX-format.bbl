@@ -32,39 +32,27 @@ A.~Frackelton, A.~Grossman, E.~Palinginis, F.~Castrillon, V.~Elango, and
   quality assessment tool,'' \emph{Suburban Sustainability}, vol.~1, no.~1,
   p.~4, 2013.
 
-\bibitem{liu2018}
-Z.~Liu, S.~Shabani, N.~G. Balet, M.~Sokhn, and F.~Cretton, ``How to motivate
-  participation and improve quality of crowdsourcing when building
-  accessibility maps,'' in \emph{2018 15th IEEE Annual Consumer Communications
-  Networking Conference (CCNC)}, Jan 2018, pp. 1--6.
-
-\bibitem{brovelli_webbased_2014}
+\bibitem{tan_research_2007}
 \BIBentryALTinterwordspacing
-M.~A. Brovelli, M.~Minghini, and G.~Zamboni,
-  ``\BIBforeignlanguage{en}{Web–based {Participatory} {GIS} with data
-  collection on the field – {A} prototype architecture},''
-  \emph{\BIBforeignlanguage{en}{OSGeo Journal}}, vol.~13, no.~1, pp. 29--33,
-  Apr. 2014.
+D.~Tan, W.~Wang, J.~Lu, and Y.~Bian, ``Research on {Methods} of {Assessing}
+  {Pedestrian} {Level} of {Service} for {Sidewalk},'' \emph{Journal of
+  Transportation Systems Engineering and Information Technology}, vol.~7,
+  no.~5, pp. 74--79, Oct. 2007.
 \BIBentrySTDinterwordspacing
 
-\bibitem{minghini_multi-dimensional_2014}
+\bibitem{asadi-shekari_zohreh_disabled_2013}
 \BIBentryALTinterwordspacing
-M.~Minghini, ``\BIBforeignlanguage{eng}{Multi-dimensional {GeoWeb} platforms
-  for citizen science and civic engagement applications},'' Tesi di dottorato,
-  Mar. 2014.
+{Asadi-Shekari Zohreh}, {Moeinaddini Mehdi}, and {Zaly Shah Muhammad},
+  ``Disabled {Pedestrian} {Level} of {Service} {Method} for {Evaluating} and
+  {Promoting} {Inclusive} {Walking} {Facilities} on {Urban} {Streets},''
+  \emph{Journal of Transportation Engineering}, vol. 139, no.~2, pp. 181--192,
+  Feb. 2013.
 \BIBentrySTDinterwordspacing
 
 \bibitem{canny_computational_1986}
 J.~Canny, ``A {Computational} {Approach} to {Edge} {Detection},'' \emph{IEEE
   Transactions on Pattern Analysis and Machine Intelligence}, vol. PAMI-8,
   no.~6, pp. 679--698, Nov. 1986.
-
-\bibitem{duda_use_1972}
-\BIBentryALTinterwordspacing
-R.~O. Duda and P.~E. Hart, ``Use of the {Hough} {Transformation} to {Detect}
-  {Lines} and {Curves} in {Pictures},'' \emph{Commun. ACM}, vol.~15, no.~1, pp.
-  11--15, Jan. 1972.
-\BIBentrySTDinterwordspacing
 
 \bibitem{kiryati_probabilistic_1991}
 \BIBentryALTinterwordspacing
@@ -73,22 +61,23 @@ N.~Kiryati, Y.~Eldar, and A.~M. Bruckstein, ``A probabilistic {Hough}
   1991.
 \BIBentrySTDinterwordspacing
 
-\bibitem{kong2009vanishing}
-H.~Kong, J.-Y. Audibert, and J.~Ponce, ``Vanishing point detection for road
-  detection,'' in \emph{Computer Vision and Pattern Recognition, 2009. CVPR
-  2009. IEEE Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2009,
-  pp. 96--103.
-
-\bibitem{szeliski2010computer}
-R.~Szeliski, \emph{Computer vision: algorithms and applications}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Springer Science \& Business Media, 2010.
-
 \bibitem{lu_real-time_2015}
 \BIBentryALTinterwordspacing
 Y.~Lu and H.~A. Karimi, ``Real-{Time} {Sidewalk} {Slope} {Calculation} through
   {Integration} of {GPS} {Trajectory} and {Image} {Data} to {Assist} {People}
   with {Disabilities} in {Navigation},'' \emph{ISPRS International Journal of
   Geo-Information}, vol.~4, no.~2, pp. 741--753, 2015.
+\BIBentrySTDinterwordspacing
+
+\bibitem{szeliski2010computer}
+R.~Szeliski, \emph{Computer vision: algorithms and applications}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer Science \& Business Media, 2010.
+
+\bibitem{coughlan_terrain_2007}
+\BIBentryALTinterwordspacing
+J.~M. Coughlan and H.~Shen, ``Terrain {Analysis} for {Blind} {Wheelchair}
+  {Users}: {Computer} {Vision} {Algorithms} for {Finding} {Curbs} and other
+  {Negative} {Obstacles}.'' in \emph{{CVHI}}, 2007.
 \BIBentrySTDinterwordspacing
 
 \bibitem{hara_tohme:_2014}
@@ -111,39 +100,38 @@ J.~M. Alvarez, T.~Gevers, Y.~LeCun, and A.~M. Lopez, ``Road scene segmentation
   from a single image,'' in \emph{European Conference on Computer
   Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2012, pp. 376--389.
 
-\bibitem{coughlan_terrain_2007}
+\bibitem{neuhold2017mapillary}
+G.~Neuhold, T.~Ollmann, S.~R. Bul{\`o}, and P.~Kontschieder, ``The mapillary
+  vistas dataset for semantic understanding of street scenes,'' in
+  \emph{Proceedings of the International Conference on Computer Vision (ICCV),
+  Venice, Italy}, 2017, pp. 22--29.
+
+\bibitem{liu2018}
+Z.~Liu, S.~Shabani, N.~G. Balet, M.~Sokhn, and F.~Cretton, ``How to motivate
+  participation and improve quality of crowdsourcing when building
+  accessibility maps,'' in \emph{2018 15th IEEE Annual Consumer Communications
+  Networking Conference (CCNC)}, Jan 2018, pp. 1--6.
+
+\bibitem{brovelli_webbased_2014}
 \BIBentryALTinterwordspacing
-J.~M. Coughlan and H.~Shen, ``Terrain {Analysis} for {Blind} {Wheelchair}
-  {Users}: {Computer} {Vision} {Algorithms} for {Finding} {Curbs} and other
-  {Negative} {Obstacles}.'' in \emph{{CVHI}}, 2007.
+M.~A. Brovelli, M.~Minghini, and G.~Zamboni,
+  ``\BIBforeignlanguage{en}{Web–based {Participatory} {GIS} with data
+  collection on the field – {A} prototype architecture},''
+  \emph{\BIBforeignlanguage{en}{OSGeo Journal}}, vol.~13, no.~1, pp. 29--33,
+  Apr. 2014.
 \BIBentrySTDinterwordspacing
 
-\bibitem{zbontar2016stereo}
-J.~Zbontar and Y.~LeCun, ``Stereo matching by training a convolutional neural
-  network to compare image patches,'' \emph{Journal of Machine Learning
-  Research}, vol.~17, no. 1-32, p.~2, 2016.
-
-\bibitem{tan_research_2007}
+\bibitem{minghini_multi-dimensional_2014}
 \BIBentryALTinterwordspacing
-D.~Tan, W.~Wang, J.~Lu, and Y.~Bian, ``Research on {Methods} of {Assessing}
-  {Pedestrian} {Level} of {Service} for {Sidewalk},'' \emph{Journal of
-  Transportation Systems Engineering and Information Technology}, vol.~7,
-  no.~5, pp. 74--79, Oct. 2007.
+M.~Minghini, ``\BIBforeignlanguage{eng}{Multi-dimensional {GeoWeb} platforms
+  for citizen science and civic engagement applications},'' Tesi di dottorato,
+  Mar. 2014.
 \BIBentrySTDinterwordspacing
 
-\bibitem{asadi-shekari_zohreh_disabled_2013}
-\BIBentryALTinterwordspacing
-{Asadi-Shekari Zohreh}, {Moeinaddini Mehdi}, and {Zaly Shah Muhammad},
-  ``Disabled {Pedestrian} {Level} of {Service} {Method} for {Evaluating} and
-  {Promoting} {Inclusive} {Walking} {Facilities} on {Urban} {Streets},''
-  \emph{Journal of Transportation Engineering}, vol. 139, no.~2, pp. 181--192,
-  Feb. 2013.
-\BIBentrySTDinterwordspacing
-
-\bibitem{mostafavi2015mobilisig}
-M.~Mostafavi, ``Mobilisig: Development of a geospatial assistive technology for
-  navigation of people with motor disabilities,'' in \emph{Spatial Knowledge
-  and Information Conference. Banff, Alberta, Canada}, 2015.
+\bibitem{comai_mapping_2015}
+S.~Comai, D.~Kayange, R.~Mangiarotti, M.~Matteucci, S.~Ugur~Yavuz, and
+  F.~Valentini, ``Mapping city accessibility: review and analysis,''
+  \emph{Stud. Health Technol. Inform}, vol. 217, pp. 325--331, 2015.
 
 \bibitem{gharebaghi2017confidence}
 A.~Gharebaghi, M.-A. Mostafavi, G.~Edwards, P.~Fougeyrollas, P.~Morales-Coayla,
@@ -152,52 +140,9 @@ A.~Gharebaghi, M.-A. Mostafavi, G.~Edwards, P.~Fougeyrollas, P.~Morales-Coayla,
   users,'' in \emph{International Cartographic Conference}.\hskip 1em plus
   0.5em minus 0.4em\relax Springer, 2017, pp. 463--477.
 
-\bibitem{liu_crowdsourcing-based_2017}
-\BIBentryALTinterwordspacing
-Z.~Liu, N.~Glassey~Balet, S.~Maria, and E.~De~Gaspari, ``Crowdsourcing-{Based}
-  {Mobile} {Application} for {Wheelchair} {Accessibility},'' \emph{Journal on
-  Technology \& Persons with Disabilities}, vol.~5, pp. 1--15, Apr. 2017.
-\BIBentrySTDinterwordspacing
-
-\bibitem{comai_mapping_2015}
-S.~Comai, D.~Kayange, R.~Mangiarotti, M.~Matteucci, S.~Ugur~Yavuz, and
-  F.~Valentini, ``Mapping city accessibility: review and analysis,''
-  \emph{Stud. Health Technol. Inform}, vol. 217, pp. 325--331, 2015.
-
-\bibitem{ivanchenko_computer_2008}
-V.~Ivanchenko, J.~Coughlan, W.~Gerrey, and H.~Shen, ``Computer vision-based
-  clear path guidance for blind wheelchair users,'' in \emph{Proceedings of the
-  10th international {ACM} {SIGACCESS} conference on {Computers} and
-  accessibility}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2008, pp.
-  291--292.
-
-\bibitem{ivanchenko_crosswatch:_2008}
-\BIBentryALTinterwordspacing
-V.~Ivanchenko, J.~Coughlan, and H.~Shen, ``\BIBforeignlanguage{en}{Crosswatch:
-  {A} {Camera} {Phone} {System} for {Orienting} {Visually} {Impaired}
-  {Pedestrians} at {Traffic} {Intersections}},'' in
-  \emph{\BIBforeignlanguage{en}{Computers {Helping} {People} with {Special}
-  {Needs}}}, ser. Lecture {Notes} in {Computer} {Science}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Springer, Berlin, Heidelberg, Jul. 2008, pp. 1122--1128.
-\BIBentrySTDinterwordspacing
-
-\bibitem{asad_smartphone_2012}
-M.~Asad and W.~Ikram, ``Smartphone based guidance system for visually impaired
-  person,'' in \emph{2012 3rd {International} {Conference} on {Image}
-  {Processing} {Theory}, {Tools} and {Applications} ({IPTA})}, Oct. 2012, pp.
-  442--447.
-
 \bibitem{noauthor_opensidewalks_nodate}
 \BIBentryALTinterwordspacing
 ``{OpenSidewalks}.''
-\BIBentrySTDinterwordspacing
-
-\bibitem{israeli_preliminary_2002}
-\BIBentryALTinterwordspacing
-A.~A. Israeli, ``\BIBforeignlanguage{en}{A {Preliminary} {Investigation} of the
-  {Importance} of {Site} {Accessibility} {Factors} for {Disabled}
-  {Tourists}},'' \emph{\BIBforeignlanguage{en}{Journal of Travel Research}},
-  vol.~41, no.~1, pp. 101--104, Aug. 2002.
 \BIBentrySTDinterwordspacing
 
 \bibitem{kovashka2016crowdsourcing}
@@ -223,16 +168,6 @@ K.~Hara and J.~E. Froehlich, ``Characterizing and {Visualizing} {Physical}
   113, pp. 13--21, Nov. 2015.
 \BIBentrySTDinterwordspacing
 
-\bibitem{hara_improving_2015}
-\BIBentryALTinterwordspacing
-K.~Hara, S.~Azenkot, M.~Campbell, C.~L. Bennett, V.~Le, S.~Pannella, R.~Moore,
-  K.~Minckler, R.~H. Ng, and J.~E. Froehlich, ``Improving {Public} {Transit}
-  {Accessibility} for {Blind} {Riders} by {Crowdsourcing} {Bus} {Stop}
-  {Landmark} {Locations} with {Google} {Street} {View}: {An} {Extended}
-  {Analysis},'' \emph{ACM Trans. Access. Comput.}, vol.~6, no.~2, pp.
-  5:1--5:23, Mar. 2015.
-\BIBentrySTDinterwordspacing
-
 \bibitem{von2006peekaboom}
 L.~Von~Ahn, R.~Liu, and M.~Blum, ``Peekaboom: a game for locating objects in
   images,'' in \emph{Proceedings of the SIGCHI conference on Human Factors in
@@ -246,11 +181,5 @@ G.~Boeing, ``{OSMnx}: {New} {Methods} for {Acquiring}, {Constructing},
   \emph{Computers, Environment and Urban Systems}, vol.~65, pp. 126--139, Sep.
   2017, arXiv: 1611.01890.
 \BIBentrySTDinterwordspacing
-
-\bibitem{neuhold2017mapillary}
-G.~Neuhold, T.~Ollmann, S.~R. Bul{\`o}, and P.~Kontschieder, ``The mapillary
-  vistas dataset for semantic understanding of street scenes,'' in
-  \emph{Proceedings of the International Conference on Computer Vision (ICCV),
-  Venice, Italy}, 2017, pp. 22--29.
 
 \end{thebibliography}
