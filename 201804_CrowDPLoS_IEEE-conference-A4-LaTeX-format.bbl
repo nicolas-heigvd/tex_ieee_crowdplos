@@ -32,6 +32,14 @@ A.~Frackelton, A.~Grossman, E.~Palinginis, F.~Castrillon, V.~Elango, and
   quality assessment tool,'' \emph{Suburban Sustainability}, vol.~1, no.~1,
   p.~4, 2013.
 
+\bibitem{landis_modeling_2001}
+\BIBentryALTinterwordspacing
+B.~Landis, V.~Vattikuti, R.~Ottenberg, D.~McLeod, and M.~Guttenplan, ``Modeling
+  the {Roadside} {Walking} {Environment}: {Pedestrian} {Level} of {Service},''
+  \emph{Transportation Research Record: Journal of the Transportation Research
+  Board}, vol. 1773, pp. 82--88, Jan. 2001.
+\BIBentrySTDinterwordspacing
+
 \bibitem{tan_research_2007}
 \BIBentryALTinterwordspacing
 D.~Tan, W.~Wang, J.~Lu, and Y.~Bian, ``Research on {Methods} of {Assessing}
@@ -61,25 +69,6 @@ N.~Kiryati, Y.~Eldar, and A.~M. Bruckstein, ``A probabilistic {Hough}
   1991.
 \BIBentrySTDinterwordspacing
 
-\bibitem{lu_real-time_2015}
-\BIBentryALTinterwordspacing
-Y.~Lu and H.~A. Karimi, ``Real-{Time} {Sidewalk} {Slope} {Calculation} through
-  {Integration} of {GPS} {Trajectory} and {Image} {Data} to {Assist} {People}
-  with {Disabilities} in {Navigation},'' \emph{ISPRS International Journal of
-  Geo-Information}, vol.~4, no.~2, pp. 741--753, 2015.
-\BIBentrySTDinterwordspacing
-
-\bibitem{szeliski2010computer}
-R.~Szeliski, \emph{Computer vision: algorithms and applications}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Springer Science \& Business Media, 2010.
-
-\bibitem{coughlan_terrain_2007}
-\BIBentryALTinterwordspacing
-J.~M. Coughlan and H.~Shen, ``Terrain {Analysis} for {Blind} {Wheelchair}
-  {Users}: {Computer} {Vision} {Algorithms} for {Finding} {Curbs} and other
-  {Negative} {Obstacles}.'' in \emph{{CVHI}}, 2007.
-\BIBentrySTDinterwordspacing
-
 \bibitem{hara_tohme:_2014}
 \BIBentryALTinterwordspacing
 K.~Hara, J.~Sun, R.~Moore, D.~Jacobs, and J.~Froehlich, ``Tohme: {Detecting}
@@ -106,6 +95,13 @@ G.~Neuhold, T.~Ollmann, S.~R. Bul{\`o}, and P.~Kontschieder, ``The mapillary
   \emph{Proceedings of the International Conference on Computer Vision (ICCV),
   Venice, Italy}, 2017, pp. 22--29.
 
+\bibitem{coughlan_terrain_2007}
+\BIBentryALTinterwordspacing
+J.~M. Coughlan and H.~Shen, ``Terrain {Analysis} for {Blind} {Wheelchair}
+  {Users}: {Computer} {Vision} {Algorithms} for {Finding} {Curbs} and other
+  {Negative} {Obstacles}.'' in \emph{{CVHI}}, 2007.
+\BIBentrySTDinterwordspacing
+
 \bibitem{liu2018}
 Z.~Liu, S.~Shabani, N.~G. Balet, M.~Sokhn, and F.~Cretton, ``How to motivate
   participation and improve quality of crowdsourcing when building
@@ -126,23 +122,6 @@ M.~A. Brovelli, M.~Minghini, and G.~Zamboni,
 M.~Minghini, ``\BIBforeignlanguage{eng}{Multi-dimensional {GeoWeb} platforms
   for citizen science and civic engagement applications},'' Tesi di dottorato,
   Mar. 2014.
-\BIBentrySTDinterwordspacing
-
-\bibitem{comai_mapping_2015}
-S.~Comai, D.~Kayange, R.~Mangiarotti, M.~Matteucci, S.~Ugur~Yavuz, and
-  F.~Valentini, ``Mapping city accessibility: review and analysis,''
-  \emph{Stud. Health Technol. Inform}, vol. 217, pp. 325--331, 2015.
-
-\bibitem{gharebaghi2017confidence}
-A.~Gharebaghi, M.-A. Mostafavi, G.~Edwards, P.~Fougeyrollas, P.~Morales-Coayla,
-  F.~Routhier, J.~Leblond, and L.~Noreau, ``A confidence-based approach for the
-  assessment of accessibility of pedestrian network for manual wheelchair
-  users,'' in \emph{International Cartographic Conference}.\hskip 1em plus
-  0.5em minus 0.4em\relax Springer, 2017, pp. 463--477.
-
-\bibitem{noauthor_opensidewalks_nodate}
-\BIBentryALTinterwordspacing
-``{OpenSidewalks}.''
 \BIBentrySTDinterwordspacing
 
 \bibitem{kovashka2016crowdsourcing}
@@ -167,12 +146,6 @@ K.~Hara and J.~E. Froehlich, ``Characterizing and {Visualizing} {Physical}
   {Vision}, and {Machine} {Learning},'' \emph{SIGACCESS Access. Comput.}, no.
   113, pp. 13--21, Nov. 2015.
 \BIBentrySTDinterwordspacing
-
-\bibitem{von2006peekaboom}
-L.~Von~Ahn, R.~Liu, and M.~Blum, ``Peekaboom: a game for locating objects in
-  images,'' in \emph{Proceedings of the SIGCHI conference on Human Factors in
-  computing systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2006, pp.
-  55--64.
 
 \bibitem{boeing_osmnx:_2017}
 \BIBentryALTinterwordspacing

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.5)  4 MAY 2018 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.5)  7 MAY 2018 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,14 +939,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: Citation `fruin1971pedestrian' on page 1 undefined on input line
  195.
 
-
-LaTeX Warning: Citation `landis_modeling_2001' on page 1 undefined on input lin
-e 195.
-
-
-LaTeX Warning: Citation `landis_modeling_2001' on page 1 undefined on input lin
-e 197.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -955,223 +947,61 @@ Underfull \hbox (badness 3029) in paragraph at lines 248--249
 []\T1/ptm/m/n/10 Research on dis-abled pedes-trian level of ser-vice
  []
 
-[2] <./images/OSM_walk_graph_022.jpg, id=68, 1580.90625pt x 807.015pt>
+[2]
+
+LaTeX Warning: Citation `dijkstra1959note' on page 3 undefined on input line 32
+2.
+
+<./images/OSM_walk_graph_022.jpg, id=66, 1580.90625pt x 807.015pt>
 File: ./images/OSM_walk_graph_022.jpg Graphic file (type jpg)
 
 <use ./images/OSM_walk_graph_022.jpg>
-Package pdftex.def Info: ./images/OSM_walk_graph_022.jpg used on input line 343
+Package pdftex.def Info: ./images/OSM_walk_graph_022.jpg used on input line 348
 .
 (pdftex.def)             Requested size: 235.84843pt x 120.39438pt.
 
-Underfull \hbox (badness 1546) in paragraph at lines 361--366
-\T1/ptm/m/n/10 net-work may not be to-tally ful-filled (fig.[]1[]) due to
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 361--366
-\T1/ptm/m/n/10 its vol-un-tary ba-sis and in-ter-est of lo-cal cit-i-zen for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--366
-[][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--366
-[][][][][][]
- []
-
-
-Overfull \hbox (135.58884pt too wide) in paragraph at lines 361--366
-[][][][][][]
- []
-
-
-Overfull \hbox (275.45705pt too wide) in paragraph at lines 361--366
-[][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
- []\T1/ptm/m/it/10 2) Data ac-qui-si-tion and ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
-\T1/ptm/m/it/10 olo-ca-tion: [] \T1/ptm/m/n/10 A sec-ond ap-pli-ca-tion
- []
-
-
-Overfull \hbox (296.89714pt too wide) in paragraph at lines 371--373
-[][][][][][][][][][][][]\T1/ptm/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 374--381
-\T1/ptm/m/n/10 build to col-lect users' pho-tographs.[][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/ptm/m/n/10 Along with ex-ist-ing street pic-tures sources like
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 374--381
-\T1/ptm/m/n/10 Google Street View these im-ages will be used as
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 374--381
-\T1/ptm/m/n/10 raw data in-put for the dig-i-tiz-ing stage. If po-si-tion
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 374--381
-\T1/ptm/m/n/10 and ori-en-ta-tion (az-imuth) val-ues are know from a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/ptm/m/n/10 it. [][][][][][]
- []
-
-
-Overfull \hbox (3.38943pt too wide) in paragraph at lines 374--381
-[][][][][][]
- []
-
-
-Overfull \hbox (852.84283pt too wide) in paragraph at lines 374--381
-[][][][][][] [][][][][][] 
- []
-
-<./images/architecture.png, id=71, 787.14075pt x 254.75175pt>
+<./images/architecture.png, id=70, 787.14075pt x 254.75175pt>
 File: ./images/architecture.png Graphic file (type png)
 
 <use ./images/architecture.png>
-Package pdftex.def Info: ./images/architecture.png used on input line 392.
+Package pdftex.def Info: ./images/architecture.png used on input line 386.
 (pdftex.def)             Requested size: 235.84843pt x 76.32892pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--402
-[][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--402
-\T1/ptm/m/n/10 may also be pro-vided to di-rectly mea-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--402
-\T1/ptm/m/n/10 sure the side-walk width onto the im-age.
- []
-
-
-Overfull \hbox (161.32939pt too wide) in paragraph at lines 398--402
-[][][][][][] 
- []
-
-<./images/curb_ramp_crosswalk01.jpg, id=74, 1654.18pt x 467.7475pt>
+<./images/curb_ramp_crosswalk01.jpg, id=73, 1654.18pt x 467.7475pt>
 File: ./images/curb_ramp_crosswalk01.jpg Graphic file (type jpg)
 
 <use ./images/curb_ramp_crosswalk01.jpg>
 Package pdftex.def Info: ./images/curb_ramp_crosswalk01.jpg used on input line 
-408.
+401.
 (pdftex.def)             Requested size: 235.84843pt x 66.68326pt.
  [3 <./images/OSM_walk_graph_022.jpg> <./images/architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
- []\T1/ptm/m/it/10 4) End-user route choice as-sess-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
-\T1/ptm/m/it/10 ment and up-date: [] \T1/ptm/m/n/10 The fi-nal ap-pli-ca-tion
- []
-
-
-Overfull \hbox (163.51834pt too wide) in paragraph at lines 452--453
-[][][][][][]
- []
-
-<./images/example01.jpg, id=99, 1174.3875pt x 663.47874pt>
+<./images/example01.jpg, id=96, 1174.3875pt x 663.47874pt>
 File: ./images/example01.jpg Graphic file (type jpg)
 
 <use ./images/example01.jpg>
-Package pdftex.def Info: ./images/example01.jpg used on input line 462.
+Package pdftex.def Info: ./images/example01.jpg used on input line 455.
 (pdftex.def)             Requested size: 235.84843pt x 133.24008pt.
 
-Underfull \hbox (badness 4954) in paragraph at lines 500--501
-\T1/ptm/m/n/10 based dis-abled pedes-trian level of ser-vice rout-ing
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 500--501
-\T1/ptm/m/n/10 We an-a-lyze the ex-ist-ing tech-ni-cal al-go-rithms for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
-\T1/ptm/m/n/10 im-ages pro-cess-ing, and ex-plain their de-fi-cien-cies.
- []
-
-
-Underfull \hbox (badness 5189) in paragraph at lines 500--501
-\T1/ptm/m/n/10 More im-por-tantly, we present the com-bi-na-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
-\T1/ptm/m/n/10 these al-go-rithms with crowd-sourc-ing tech-nolo-gies
- []
-
-
-Overfull \hbox (495.90627pt too wide) in paragraph at lines 500--501
-\T1/ptm/m/n/10 ing[][][][][][].
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 500--501
-\T1/ptm/m/n/10 our so-lu-tion with the ge-olo-ca-tion data from cities
- []
-
-
-Overfull \hbox (564.39674pt too wide) in paragraph at lines 500--501
-[][][][][][]\T1/ptm/m/n/10 in
- []
-
 (./201804_CrowDPLoS_IEEE-conference-A4-LaTeX-format.bbl
-Underfull \hbox (badness 3713) in paragraph at lines 73--75
-[]\T1/ptm/m/n/8 R. Szeliski, \T1/ptm/m/it/8 Com-puter vi-sion: al-go-rithms and
- ap-pli-ca-tions\T1/ptm/m/n/8 .
- []
-
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[4 <./images/curb_ramp_crosswalk01.jpg> <./images/example01.jpg>]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `eng'. Using the pattern for
 ** the default language instead.
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
-[]\T1/ptm/m/n/8 S. Co-mai, D. Kayange, R. Man-gia-rotti, M. Mat-teucci,
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 151.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 130.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+ [4 <./images/curb_ramp_crosswalk01.jpg> <./images/example01.jpg>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1183,28 +1013,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 506.
 [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 506.
  (./201804_CrowDPLoS_IEEE-conference-A4-LaTeX-format.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 516.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 506.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 506.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 506.
  ) 
 Here is how much of TeX's memory you used:
- 8694 strings out of 494883
- 125548 string characters out of 6178694
- 230711 words of memory out of 5000000
- 11768 multiletter control sequences out of 15000+600000
+ 8684 strings out of 494883
+ 125301 string characters out of 6178694
+ 230481 words of memory out of 5000000
+ 11763 multiletter control sequences out of 15000+600000
  115248 words of font info for 131 fonts, out of 8000000 for 9000
  37 hyphenation exceptions out of 8191
- 42i,9n,26p,1437b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,26p,1164b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1212,17 +1042,16 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
 Output written on 201804_CrowDPLoS_IEEE-conference-A4-LaTeX-format.pdf (5 pages
-, 1187395 bytes).
+, 1177327 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

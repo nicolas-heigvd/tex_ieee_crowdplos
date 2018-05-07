@@ -24,51 +24,53 @@ Repeated entry---line 789 of file biblio.bib
  : @inproceedings{hara_tohme:_2014
  :                                ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "fruin1971pedestrian"
+Warning--I didn't find a database entry for "dijkstra1959note"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing school in minghini_multi-dimensional_2014
 
 Done.
-You've used 24 entries,
+You've used 19 entries,
             3990 wiz_defined-function locations,
-            961 strings with 13116 characters,
-and the built_in function-call counts, 18655 in all, are:
-= -- 1499
-> -- 442
-< -- 161
-+ -- 241
-- -- 76
-* -- 909
-:= -- 2754
-add.period$ -- 53
-call.type$ -- 24
-change.case$ -- 24
-chr.to.int$ -- 363
-cite$ -- 25
-duplicate$ -- 1348
-empty$ -- 1512
-format.name$ -- 94
-if$ -- 4300
+            940 strings with 12210 characters,
+and the built_in function-call counts, 15156 in all, are:
+= -- 1240
+> -- 354
+< -- 132
++ -- 192
+- -- 61
+* -- 755
+:= -- 2267
+add.period$ -- 41
+call.type$ -- 19
+change.case$ -- 20
+chr.to.int$ -- 291
+cite$ -- 20
+duplicate$ -- 1095
+empty$ -- 1194
+format.name$ -- 76
+if$ -- 3478
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 240
-newline$ -- 121
-num.names$ -- 23
-pop$ -- 542
+int.to.str$ -- 19
+missing$ -- 194
+newline$ -- 104
+num.names$ -- 19
+pop$ -- 415
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1399
+skip$ -- 1129
 stack$ -- 0
-substring$ -- 881
-swap$ -- 1131
-text.length$ -- 40
+substring$ -- 709
+swap$ -- 937
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 24
+type$ -- 19
 warning$ -- 1
-while$ -- 92
-width$ -- 26
-write$ -- 278
+while$ -- 76
+width$ -- 21
+write$ -- 235
 (There were 4 error messages)

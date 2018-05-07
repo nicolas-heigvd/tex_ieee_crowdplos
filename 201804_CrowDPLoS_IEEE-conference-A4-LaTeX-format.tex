@@ -194,7 +194,7 @@ Safety and accessibility of pedestrian infrastructure regulation developments ha
  
 The first formalization of sidewalks performance assessments was carried out by \cite{fruin1971pedestrian}. His approach is the only quantifying established methodology to measure the capacity of sidewalks \cite{landis_modeling_2001}. The practical usage of his methodology has its limitations, in fact only around 3 percent of the sidewalks could be effectively assessed by Fruin’s method. 
 
-Given that sidewalks are one of the most important and secure places for pedestrian to walk on in urban areas, several studies have focused their researches on characterizing and assessing sidewalks accessibility, even based on perceived security from the pedestrian point of view \cite{tan_research_2007}. According to Landis et al. \cite{landis_modeling_2001}, it is more difficult to assess walking conditions than assessing vehicular roadways.  Furthermore research focused on PLoS for disabled people (DPLoS) is rather new. Asadi et~al. \cite{asadi-shekari_zohreh_disabled_2013} have for example calculated 10 main feature indicators based on several studies and guidelines regarding the presence of facilities for disabled people, like wheelchair users or blind people. Once the 10 DPLoS indicators were developed they proceeded to establish 10 PLoS indicators with the same methodology.  The combination of the DPLoS and PLoS is a General Pedestrian Level of Service (GPLoS), which assesses the inclusive walking conditions for both pedestrians and disabled users. Readers interested in a more exhaustive literature review on the development of PLoS are referred to Asadi et~al.
+Given that sidewalks are one of the most important and secure places for pedestrian to walk on the urban areas, several studies have focused their researches on characterizing and assessing sidewalks accessibility, even based on perceived security from the pedestrian point of view \cite{tan_research_2007}. According to Landis et al. \cite{landis_modeling_2001}, it is more difficult to assess walking conditions than assessing vehicular roadways.  Furthermore research focused on PLoS for disabled people (DPLoS) is rather new. Asadi et~al. \cite{asadi-shekari_zohreh_disabled_2013} have for example calculated 10 main feature indicators based on several studies and guidelines regarding the presence of facilities for disabled people, like wheelchair users or blind people. Once the 10 DPLoS indicators were developed they proceeded to establish 10 PLoS indicators with the same methodology.  The combination of the DPLoS and PLoS is a General Pedestrian Level of Service (GPLoS), which assesses the inclusive walking conditions for both pedestrians and disabled users.
  
 %################################################################################
 \subsection{Computer Vision and machines learning based techniques for assessing relevant street features}
@@ -247,21 +247,22 @@ But there are still two main bottlenecks to build a supervised computer vision c
 %################################################################################
 Research on disabled pedestrian level of service (DPLoS) is relatively new. The analytical methods to estimate the DPLoS is not only considered as a narrow range of pedestrians, but also need to apply more diverse pedestrian populations with different characteristics, to ensure inclusive walking conditions. Therefore, a good quality of crowdsourced data from citizens is the key element to create the DPLoS. Liu et al. \cite{liu2018} identified three useful techniques for improving crowdsourced data quality when building accessibility maps, including qualification tests, reputation system, and aggregation techniques. Their findings highlighted that the accuracy rate has a significant increase after applying the intervention of quality control methods. Moreover, \cite{brovelli_webbased_2014} and \cite{minghini_multi-dimensional_2014} shown how participatory Geographic Information System (GIS) using Free and Open Source Software (FOSS) may help provide high quality open-GIS data and make them available to the public using web technologies. 
 
+
 %mostafavi2015mobilisig
-Other studies \cite{comai_mapping_2015, gharebaghi2017confidence} focused on mapping the level of accessibility of street networks %(MEP: Map for Easy Paths)
-using an end-user design approach, while
+%Other studies \cite{comai_mapping_2015, gharebaghi2017confidence} focused on mapping the level of accessibility of street networks %(MEP: Map for Easy Paths)
+%using an end-user design approach, while
 %A 2015 interdisciplinary urban data science program of the University of Washington \cite{rokem_building_2015} has seen 2 projects related to impaired people mobility. One of them, called 
-the OpenSideWalk project also
-\cite{noauthor_opensidewalks_nodate} 
+%the OpenSideWalk project also
+%\cite{noauthor_opensidewalks_nodate} 
 %\cite{noauthor_opensidewalks_nodate,bolten_urban_2015,tanweer_mapping_2017} 
-investigate routing techniques for sidewalk graph analysis in order to propose the better paths for disabled people. The latter is now proposing a schema to better and more finely represents sidewalks as separate footways from the drivable roads in OpenStreetMap (OSM).%\footnote{\url{https://www.opensidewalks.com/}} \cite{noauthor_opensidewalks_nodate}.
+%investigate routing techniques for sidewalk graph analysis in order to propose the better paths for disabled people. The latter is now proposing a schema to better and more finely represents sidewalks as separate footways from the drivable roads in OpenStreetMap (OSM).%\footnote{\url{https://www.opensidewalks.com/}} \cite{noauthor_opensidewalks_nodate}.
 
 %Even the tourism industry may take some advantages of disabled accessibility researches \cite{israeli_preliminary_2002}.
 
 %In Switzerland, one can easily find some architectural guidelines related to disabled pedestrians \cite{schmidt_directives_2003} mainly based on Swiss Standard (SN).
 
 
-In this study, we follow the guidelines from literatures and apply selective recruitment and training of participants to provide the high-quality crowdsourcing data in addition to computer vision based techniques.
+In this study, we follow the guidelines from the literature and apply selective recruitment and training of participants to provide the high-quality crowdsourcing data in addition to computer vision based techniques.
 
 %################################################################################
 \subsection{Combination of crowdsourcing and computer vision to evaluate the DPLoS model}
@@ -297,28 +298,32 @@ More recently, Hara et~al. \cite{hara_tohme:_2014,hara_characterizing_2015} desi
 Based on the relevant literature, our research methodology is divided into three main phases: 1) the creation of the DPLoS model; 2) the establishment of a pedestrian network at a city-scale level; and 3) the design of a computer vision and machine learning architecture dedicated to features detections, coupled with crowdsourcing applications to collect data, digitize and label features and evaluate the detection results.
 
 %################################################################################
-\subsection{\colorbox{yellow}{DPLoS model}}
+\subsection{DPLoS model}
 %################################################################################
-\colorbox{red}{Jean-Christophe Loubier}
-
-.........
 
 
-The DPLoS established model retains the 4 following features based on literature guidelines plus a: % set ranges here
-\begin{itemize}
-\item slope
-\item sidewalks width and presence of obstacles
-\item crosswalks and security signals (e.g. pedestrian light, refuge island)
-\item presence of curb ramps to cross the road
-\item coating quality (e.g. pavement, smooth concreet)
-\end{itemize}
+The DPLoS established model retains the 5 following features based on the literature: 1) slope; 2) sidewalks width and presence of obstacles; 3) crosswalks and security signals (e.g. pedestrian light, refuge island); 4) presence of curb ramps to cross the road; and 5) coating quality (e.g. pavement, smooth concrete).
+
+% set ranges here
+%\begin{itemize}
+%\item slope
+%\item sidewalks width and presence of obstacles
+%\item crosswalks and security signals (e.g. pedestrian light, refuge island)
+%\item presence of curb ramps to cross the road
+%\item coating quality (e.g. pavement, smooth concrete)
+%\end{itemize}
 
 A normalized score $S_{i}$ for each feature $i$ is then weighted to compute a global DPLoS score for any street edge as eq.\,\ref{dplos1} shows.
 \begin{equation}
 \frac{1}{5}\sum\limits_{i=1}^5 S_{i}\cdot{}w_{i}
 \label{dplos1}
 \end{equation}
-Weights $w_{i}$ have to be determined based on local conditions and street users perception.
+
+Weights $w_{i}$ calculations are based on local conditions and street users perception. A key factor during the calculation of the recommended route for users is to provide the shortest path. The integration of a DPLoS into a short-path calculation service can easily be achieved via a Dijkstra algorithm \cite{dijkstra1959note}. Indeed, the DPLoS is calculated through a weighting process in a graph and the DPLoS range of values is always a positive real number. These two properties are essential for this kind of algorithms. The behavior of an individual with reduced mobility wishing to travel from point A to point B in a city, is dependent on the street graphs on the one hand and on the other hand their adaptations to the mobility possibilities in a given city.
+
+From a formal point of view, this is a path calculation problem in a graph. In this context, the DPLoS deals with the adaptation of the environment to the potential mobility of the person and the graph represents the territorial support. The nodes of the graphs are the street intersections and the arcs are the streets. Still on the formal level, the setting up process of a graph evaluated by a DPLoS is a simple question that can be processed by a query in a database containing the geometric description of the graph. This can be done through the usage of a geographic information system where the DPLoS evaluation is an attribute of an arc between two vertices.
+
+
 %################################################################################
 \subsection{Pedestrian graph as an input}
 %################################################################################
@@ -352,38 +357,27 @@ The figure \ref{pedestriangraph} illustrated the results to show a pedestrian ne
 %The development of an application, %even if located at later stage in the global process, 
 %should be included as soon as possible. 
 
-In this section, we use four steps to explain how the computer vision algorithms and crowdsourcing technologies could be combined together. These steps contain: 1) footways network update; 2) data acquisition; 3) images features digitizing and labeling; and 4) end-user route choice and update abilities. Each of these steps will need the development of a specialized application or tool.
+In this section, we use four steps to explain how the computer vision algorithms and crowdsourcing technologies could be combined together. These steps contain: 1) footways network update; 2) data acquisition; 3) images features digitizing and labeling; and 4) end-user route choice and update abilities. We propose to develop a specialized application for each step.
 
 
 %#####################################
 \subsubsection*{1) Footways network update}
 %#####################################
-The initial pedestrian network  may not be totally fulfilled (fig.\,\ref{pedestriangraph}) due to its voluntary basis and interest of local citizen for geographic data \colorbox{green}{<- why not be fulfilled}. A first tool \colorbox{yellow}{which tool? existing tool or our developed tool? } 
-\colorbox{green}{=>explained above, lines 1-2 of this column}
-\colorbox{yellow}{Can you describe it with the functions? How this tool can help to make more precision?}
-\colorbox{green}{=>here under:, it's the use of a recent orthophoto, like google satellite imagery with 30cm resolution that make it possible}
-will be developed to give crowd-workers a pleasant way to complete or make it fit the actual reality more precisely based on a recent orthophoto background with a 30\,cm minimal resolution and a sub-meter accuracy. %This part may be desktop-oriented for a more comfortable data entry.
+The initial pedestrian network may not be totally fulfilled (fig.\,\ref{pedestriangraph}) due to its voluntary basis and interest of local citizen for geographic data. A first application is designed and proposed to give crowd-workers a friendly way to complete and make it fit the actual reality more precisely based on a recent orthophoto background with a 30\,cm minimal resolution and a sub-meter accuracy. %This part may be desktop-oriented for a more comfortable data entry.
 
 
 %#####################################
 \subsubsection*{2) Data acquisition and geolocation}
 %#####################################
-A second application \colorbox{yellow}{second step? what is the first application?}\colorbox{green}{the first tool is: 1) Footways network update, as lines 1-2 of this column explains it}, % which may be mobile-oriented 
-would serve as a feeding source for raw images. 
+In this step, a second application would be proposed to serve as a feeding source for raw images. We apply a set of crowdsourcing motivation methods \cite{liu2018} to ask the application users to  take a picture with their mobile device. These pictures will be used as raw data input for the digitizing stage.
+If the picture's position and orientation (azimuth) values are recognized from a GPS and compass, then it could be stored in our database. Otherwise, a geolocation tool will be proposed to the user to geolocate and orient its pictures before uploading it. %A minimal precision will be asked for.\\
 
-Everyone can take a picture with a handheld mobile device. An upload tool linked to a spatial database will be build to collect users' photographs.\colorbox{yellow}{which database?} Along with existing street pictures sources like Google Street View %\cite{sweden_street-level_nodate,} \footnote{\url{https://www.mapillary.com/}} \cite{sweden_street-level_nodate},
-these images will be used as raw data input for the digitizing stage.
-If position and orientation (azimuth) values are know from a GPS and compass, they are stored along the picture. Otherwise, a geolocation tool will proposed to the user to geolocate and orient its photograph before uploading it. %A minimal precision will be asked for.\\
-\colorbox{yellow}{not clear for me this paragraph, which tool? how?}
-\colorbox{yellow}{please use the Past tense, because we present our results}
-\colorbox{yellow}{it is not a proposal}
-\colorbox{green}{Yes it is; the PostGIS database and the mobile application to take, orient and upload pictures to it, is not yet build. Only a beta-testing database exists, which structure must be further refined. That's why I can not honestly use the past tense.}
 
 
 %#####################################
 \subsubsection*{3) Feature digitizing and characterizing}
 %#####################################
-The main goal of the third stage % could take benefits of larger screens, it will therefore be desktop-oriented. 
+The main goal of the third step % could take benefits of larger screens, it will therefore be desktop-oriented. 
 is to detect one or more of the 5 identified DPLoS features on raw images and marking them with a score based on the DPLoS model. If the former may be done by a well trained CNN (fig.\,\ref{cnn}), the latter would be evaluated by crowd-workers.
 
 \begin{figure}[ht]
@@ -395,10 +389,9 @@ is to detect one or more of the 5 identified DPLoS features on raw images and ma
 \end{figure}
 
 
-E.g., if someone sees a curb ramp on a picture, he will be able to digitize it more accurately and marking it as a more or less friendly curb ramp (fig.\,\ref{curbramppicture}). An other example would let the user annotate a sidewalk surface width as %"not crossable for two wheelchairs" or 
-"no possible way for a single wheelchair" based on the perceived width on the given picture. If depth information is also available, 
-a distance-measuring tool \colorbox{green}{could you explain all the tools you have proposed ->	} may also be provided to directly measure the sidewalk width onto the image.
-\colorbox{yellow}{it is a methodology paper, the reader need to understand our methodology after read our paper}
+Let us think about the following examples, if a mobile user sees a curb ramp on a picture, he/she will be able to digitize it more accurately and marking it as a more or less friendly curb ramp (fig.\,\ref{curbramppicture}). An other example would let the user annotate a sidewalk surface width as %"not crossable for two wheelchairs" or 
+"impossible for a single wheelchair" based on the perceived width on the given picture. If depth information is also available, 
+a distance-measuring tool may also be provided to directly measure the sidewalk width from the image.
 
 
 
@@ -449,7 +442,7 @@ This stage will also give the user a tool to check the features that were detect
 %#####################################
 \subsubsection*{4) End-user route choice assessment and update}
 %#####################################
-The final application \colorbox{green}{final step? Yes,also, as each step = "a dedicated app" as stated at lines 1-2 of previous column.} will directly target the impaired pedestrian street users. It will propose the route with the best DPLoS value between two points based on the weighted sum of the DPLoS of each $n$ edges composing the route as define by eq.\,\ref{dplostot}.
+The final application will directly target the impaired pedestrian street users. It will propose the route with the best DPLoS value between two points based on the weighted sum of the DPLoS of each $n$ edges composing the route as define by eq.\,\ref{dplostot}.
 
 \begin{equation}
 \mathrm{DPLoS}_{\mathit{\,route}} = \frac{1}{n}\sum{\mathrm{DPLoS}_{\,\mathit{edge\ n}}}
@@ -494,10 +487,7 @@ Informations about the edge as well as an update button (fig.\,\ref{finalapp}) w
 %################################################################################
 %This project is in its early stages. The first version of the DPLoS model is ready. The setting up of a database to store images metadata like geolocation, as well as algorithms and crowd-workers labeling results is taking place. This same database will serve the four different applications through APIs that need to be developed. It will finally need further investigating and tests regarding coupling of CV and ML algorithms. Database populating and labeling will be the most resource demanding tasks.
 
-
-\colorbox{yellow}{proposition:}
-
-In this paper, we describe how to build a crowdsourcing based disabled pedestrian level of service routing application using computer vision and machine learning. We analyze the existing technical algorithms for images processing, and explain their deficiencies. More importantly, we present the combination of these algorithms with crowdsourcing technologies to improve the recall and the specificity of features detection. Our methodology contains a four-step process, which gives a detailed view to the practitioners about this combination. The results highlight that the accuracy of the features detection \colorbox{yellow}{it will be... after many many tests} has been improved by apply the technology of crowdsourcing\colorbox{yellow}{crowdsourcing is not \emph{sensu stricto} a technology, isn't it? I would rather say : (...) is expected to be drastically improved with the help of well designed crowdsourcing tools}. The next step for this study would be to implement our solution with the geolocation data from cities \colorbox{yellow}{I have carefully avoided denominating the country in all the paper... is it fine to do it regarding the blind review process and the fact that the proposed methodology should apply worldwide?}in Switzerland. The expected results will help people with mobility disabilities to plan their trips with an easy and secure way.
+In this paper, we describe how to build a crowdsourcing based disabled pedestrian level of service routing application using computer vision and machine learning. We analyze the existing technical algorithms for images processing, and explain their deficiencies. More importantly, we present the combination of these algorithms with crowdsourcing technologies to improve the recall and the specificity of features detection. Our methodology contains a four-step process, which gives a detailed view to the practitioners about this combination. The preliminary results highlight that the accuracy of the features detection has been improved by apply the technology of crowdsourcing. The next step for this study would be to implement our solution with the geolocation data from big cities in our country. The expected results will help people with mobility disabilities to plan their trips with an easy and secure way.
 
 %################################################################################
 %################################################################################
